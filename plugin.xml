@@ -31,13 +31,6 @@
       </config-file>
       <header-file src="src/ios/SmartlookPlugin.h" />
       <source-file src="src/ios/SmartlookPlugin.m" />
-      <podspec>
-         <config>
-            <source url="https://github.com/CocoaPods/Specs.git"/>
-         </config>
-         <pods use-frameworks="true">
-            <pod name="Smartlook" />
-         </pods>
-      </podspec>   
+      <framework src="Smartlook" type="podspec" />
     </platform>
 </plugin>
