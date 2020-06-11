@@ -22,15 +22,4 @@
       <framework src="src/android/plugin.gradle" custom="true" type="gradleReference" />
    </platform>
 
-   <!--iOS-->
-   <platform name="ios">
-      <config-file parent="/*" target="config.xml">
-          <feature name="SmartlookPlugin">
-             <param name="ios-package" value="SmartlookPlugin" />
-         </feature>
-      </config-file>
-      <header-file src="src/ios/SmartlookPlugin.h" />
-      <source-file src="src/ios/SmartlookPlugin.m" />
-      <framework src="Smartlook" type="podspec" spec="1.3.1"/>
-    </platform>
 </plugin>

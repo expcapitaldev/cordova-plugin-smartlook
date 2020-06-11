@@ -5,8 +5,7 @@
   "cordova": {
     "id": "cordova-plugin-smartlook",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "repository": {
